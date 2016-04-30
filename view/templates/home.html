@@ -1,0 +1,41 @@
+<template name='home'>
+  <div class="container">
+    <h3>Tomadas</h3>
+    {{> produtos}}
+
+  </div>
+</template>
+
+
+<template name="produtos">
+  <div class="row">     
+      <div class="collection col l6">
+        <table class="striped">
+        <thead>
+          <tr>
+              <th data-field="id">Nome</th>
+              <th data-field="name">Status</th>
+              <th data-field="price">Consumo</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{#each produtoUsuario}}
+         
+          <tr>
+            <td>{{nome}}</td>
+            {{#if status}}
+              <td class="btn ligado" >ligado</td>
+            {{else}}
+              <td class="btn desligado red">desligado</td>
+            {{/if}}
+            <td>{{consumo}}</td>
+          </tr>
+
+        {{/each}}
+        </tbody>
+      </table>
+
+
+  </div></div>
+</template>
+

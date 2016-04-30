@@ -1,3 +1,4 @@
+
 # MySQL Leaderboard Example
 
 The familiar Meteor Leaderboard example modified to use a MySQL backend, reactively!
@@ -42,3 +43,4 @@ $ ed leaderboard.js
 
 $ meteor
 ```
+

@@ -1,4 +1,0 @@
-{
-  "port": 3407,
-  "initialize": "leaderboard.sql"
-}

@@ -1,0 +1,36 @@
+<template name="footer">
+
+<footer style="background-color: #212121;" class="page-footer">
+          <div class="container">
+
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Sobre o app</h5>
+                <p class="grey-text text-lighten-4"> O app visa Aumento da participação popular no acompanhamento e fiscalização da execução física das políticas públicas implementadas por meio de convênios e transferências.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+					<!-- conteúdo à direita -->
+	          </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Desenvolvido com <a href="https://www.meteor.com/" target="_blank">Meteor JS</a>
+
+            </div>
+          </div>
+    </footer>
+    <script type="text/javascript">
+	  	$(document).ready(function(){
+	  		$(".button-collapse").sideNav({
+		      //menuWidth: 300, // Default is 240
+		      edge: 'left', // Choose the horizontal origin
+		      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+			 }),
+		    $('.collapsible').collapsible({
+		      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+		    })
+	  	});
+    </script>
+	
+</template>
